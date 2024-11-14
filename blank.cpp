@@ -1,12 +1,18 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 int main(int argc, char const *argv[])
 {
-    // float a = 7.0/22*(3.14+2)*3/5.0;
-    // cout<<a;
-    float d = 2./7;
-    cout<<d;
+    int n;
+    cout << "Enter the number: ";
+    cin >> n;
+    if (n % 3 == 0 or n % 5 == 0) // if (n%15==0)
+    {
+        cout << "Divisible by 5 or 3";
+    }
+    else
+    {
+        cout << "Not divisible by 5 or 3";
+    }
 
     return 0;
 }
- 
